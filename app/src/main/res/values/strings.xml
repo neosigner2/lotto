@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">lotto</string>
+    <string name="buttonTitle">로또번호확인</string>
 </resources>
