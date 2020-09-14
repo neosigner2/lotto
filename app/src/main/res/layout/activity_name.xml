@@ -6,21 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".NameActivity">
 
-    <android.support.constraint.Guideline
+    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideLine1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.2"/>
 
-    <android.support.constraint.Guideline
+
+    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideLine2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.6"/>
 
-    <android.support.constraint.Guideline
+    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideLine3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
