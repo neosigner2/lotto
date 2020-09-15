@@ -47,7 +47,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:maxLines="2"
+        android:maxLines="3"
         app:layout_constraintStart_toStartOf="@id/guideLine3"
         app:layout_constraintEnd_toEndOf="@id/guideLine4"
         app:layout_constraintTop_toTopOf="parent"

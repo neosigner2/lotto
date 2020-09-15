@@ -19,12 +19,21 @@ class ResultActivity : AppCompatActivity() {
         setContentView(R.layout.activity_result)
 
         val result = intent.getIntegerArrayListExtra("result")
+
         val name = intent.getStringExtra("name")
+
+        val constellation = intent.getStringExtra("constellation")
+
+
 
         resultLabel.text = "랜덤으로 생성된 \n 로또번호입니다"
 
         if(!TextUtils.isEmpty(name)){
                 resultLabel.text ="${name} 님의 \n ${SimpleDateFormat("yyyy년 MM월 dd일").format(Date())} \n 로또 번호입니다"
+        }
+
+        if(!TextUtils.isEmpty(constellation)){
+            resultLabel.text ="${constellation} 의 \n ${SimpleDateFormat("yyyy년 MM월 dd일").format(Date())} \n 로또 번호입니다"
         }
 
         result?.let {
